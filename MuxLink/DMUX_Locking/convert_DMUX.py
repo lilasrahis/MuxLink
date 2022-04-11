@@ -12,7 +12,7 @@ import random
 ## Here, we implement the DMUX scheme to the best of our ability based on the description in the TCAD paper
 benchmark=sys.argv[1]
 key_size=int(sys.argv[2])
-location=sys.argv[4]
+location=sys.argv[3]
 print("Benchmark is "+benchmark)
 print("Key-size is "+str(key_size))
 
@@ -200,7 +200,7 @@ if __name__=='__main__':
         S_sel=""
         for s in L_s:
             if s =="s1" and counter<2:
-                print("Choise is s1 but counter is less than 2")
+                print("Choice is s1 but counter is less than 2")
                 continue
             elif s=="s3" and len(F_multi)>1 and len(F_single)>1:
                 S_sel=s

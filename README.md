@@ -5,6 +5,7 @@ Lilas Alrahis, Satwik Patnaik, Muhammad Shafique, and Ozgur Sinanoglu
 ### About
 
 MuxLink is a link prediction-based attack on learning resilient logic locking. This repository contains the python implementation of MuxLink attack in addition to our own implementation of the deceptive logic locking scheme ([DMUX](https://ieeexplore.ieee.org/document/9496607)).
+
 **Contact**
 Lilas Alrahis (lma387@nyu.edu)
 ### Setup

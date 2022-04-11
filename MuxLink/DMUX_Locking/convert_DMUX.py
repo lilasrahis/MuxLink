@@ -15,6 +15,7 @@ key_size=int(sys.argv[2])
 location=sys.argv[3]
 print("Benchmark is "+benchmark)
 print("Key-size is "+str(key_size))
+os.mkdir("../data")
 
 def GenerateKey(K):
     nums= np.ones(K)

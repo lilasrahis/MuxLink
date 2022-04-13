@@ -54,7 +54,7 @@ close(FH);
 
 
 
-open (FH,'<', "./data/${file_name}/${bench}_K${key_size}_v1.bench") or die $!;
+open (FH,'<', "./data/${file_name}/${bench}_K${key_size}.bench") or die $!;
 while (<FH>){
 my $line= $_;
 if ($line=~/#key=(\d+)\s*/){

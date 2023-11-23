@@ -44,7 +44,7 @@ $ python Main.py --file-name c1908_K32_DMUX --train-name links_train.txt  --test
 ***3) Get the predictions***
 ```sh
 $ python Main.py  --file-name c1908_DMUX_K32 --train-name links_train.txt  --test-name links_test.txt --hop 3  --only-predict > Log_pos_predict_c1908_DMUX_K32.txt
-$ python Main.py  --file-name c1908_DMUX_K256 --train-name links_train.txt  --test-name  link_test_n.txt --hop 3  --only-predict > Log_neg_predict_c1908_DMUX_K32.txt
+$ python Main.py  --file-name c1908_DMUX_K32 --train-name links_train.txt  --test-name  link_test_n.txt --hop 3  --only-predict > Log_neg_predict_c1908_DMUX_K32.txt
 ```
 - The likelihoods for the links will be dumped in `links_test_3__pred.txt` and `link_test_n_3__pred.txt`. Here, `3` represents the hop size
 
